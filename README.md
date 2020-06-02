@@ -44,7 +44,7 @@ Używając serwera SMTP Google może istnieć możliwość zaznaczenia checkboxa
 
 Bez zaznaczenia tej opcji może wystąpić błąd logowania.
 
-## Co dodano w Spring Initializr
+## Co dodano w Spring Initializr?
 
  - **Spring Boot DevTools** - po każdym zapisie następuje automatyczna rekompilacja kodu
  - **Spring Web** - kontrola WEB i REST
