@@ -38,7 +38,7 @@ Należy wypełnić odpowiednio pola.
     spring.mail.properties.mail.smtp.starttls.enable=true
     spring.mail.properties.mail.smtp.starttls.required=true
 
-Używając serwera SMTP Google może istnieć możliwość zaznaczenia checkboxa w panelu:
+Używając serwera SMTP Google może istnieć konieczność zaznaczenia checkboxa w panelu:
 
 > [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps)
 
