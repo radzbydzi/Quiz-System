@@ -43,3 +43,31 @@ Używając serwera SMTP Google może istnieć możliwość zaznaczenia checkboxa
 > [https://myaccount.google.com/lesssecureapps](https://myaccount.google.com/lesssecureapps)
 
 Bez zaznaczenia tej opcji może wystąpić błąd logowania.
+
+## Co dodano w Spring Initializr
+
+ - **Spring Boot DevTools** - po każdym zapisie następuje automatyczna rekompilacja kodu
+ - **Spring Web** - kontrola WEB i REST
+ - **Spring Session** - sesje w Spring
+ - **Vaadin** - UI strony
+ - **Spring Data JPA** - klasy Java są szablonami tabel w bazie, a obiekty tych klas encjami 
+ - **H2 Database** - baza danych
+
+## Co dodatkowo dodano w pom.xml?
+Obsługa emaili
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-mail</artifactId>
+    </dependency>
+    <dependency>
+    	<groupId>javax.mail</groupId>
+    	<artifactId>javax.mail-api</artifactId>
+    	<version>1.5.2</version>
+    </dependency>
+Dla funkcji skrótu SHA1
+
+    <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+    </dependency>
